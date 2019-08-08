@@ -1,4 +1,4 @@
-package com.example.posterlist.fragment
+package com.example.posterlistlib.fragment
 
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
@@ -9,10 +9,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.posterlist.viewmodel.AllTrendingViewModel
-import com.example.posterlist.R
-import com.example.posterlist.fragment.adapter.AllTrendingAdapter
-import com.example.posterlist.model.AllTrending
+import com.example.posterlistlib.viewmodel.AllTrendingViewModel
+import com.example.posterlistlib.R
+import com.example.posterlistlib.fragment.adapter.AllTrendingAdapter
+import com.example.posterlistlib.model.AllTrending
 import kotlinx.android.synthetic.main.all_trending_fragment.view.*
 
 

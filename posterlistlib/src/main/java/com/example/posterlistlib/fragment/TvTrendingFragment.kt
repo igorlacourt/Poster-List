@@ -1,4 +1,4 @@
-package com.example.posterlist.fragment
+package com.example.posterlistlib.fragment
 
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
@@ -7,8 +7,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
-import com.example.posterlist.R
-import com.example.posterlist.viewmodel.TvTrendingViewModel
+import com.example.posterlistlib.R
+import com.example.posterlistlib.viewmodel.TvTrendingViewModel
 
 class TvTrendingFragment : Fragment() {
 

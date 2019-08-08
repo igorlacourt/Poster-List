@@ -1,12 +1,12 @@
-package com.example.posterlist.fragment.adapter
+package com.example.posterlistlib.fragment.adapter
 
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.posterlist.R
-import com.example.posterlist.model.AllTrending
+import com.example.posterlistlib.R
+import com.example.posterlistlib.model.AllTrending
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.rv_list_item.view.*
 

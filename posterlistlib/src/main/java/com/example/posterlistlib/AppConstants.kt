@@ -1,4 +1,4 @@
-package com.example.posterlist
+package com.example.posterlistlib
 
 object AppConstants{
     const val JSON_PLACEHOLDER_BASE_URL = "https://jsonplaceholder.typicode.com"
