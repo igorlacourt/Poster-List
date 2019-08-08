@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragment.AllTrendingFragment"
+        android:layout_marginStart="@dimen/fragment_margin_start"
+        android:layout_marginEnd="@dimen/fragment_margin_end"
+        android:layout_marginBottom="@dimen/list_bottom_margin">
+
+    <TextView
+            android:id="@+id/list_title"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="All trending"
+            android:textStyle="bold"
+            android:textSize="@dimen/list_title_size"
+            android:textColor="@color/listTitle"
+            android:layout_margin="@dimen/list_title_margin"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_all_trending"
+            android:scrollbars="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/list_title"/>
+
+</RelativeLayout>
